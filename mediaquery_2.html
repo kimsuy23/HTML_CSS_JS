@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            border: 1px solid gray;
+        }
+        header{
+            border-bottom: 1px solid gray;
+            padding-left: 20px;
+        }
+        footer{
+            border-top: 1px solid gray;
+        }
+        .content{
+            display: flex;
+        }
+        @media(max-width:500px){
+            .content{
+                flex-direction: column;
+            }
+            .content nav, .content aside{
+                border:none;
+                flex-basis: auto;
+            }
+        }
+        .content nav{
+            border-right: 1px solid gray;
+        }
+        .content aside{
+            border-left: 1px solid gray;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+        main{
+            padding: 10px;
+        }
+        nav{
+            order: 0;
+        }
+        main{
+            order: 1;
+        }
+        aside{
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>김수연</h1>
+        </header>
+        <section class="content">
+            <nav>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+            </nav>
+            <main>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur dignissimos cumque fugit a eaque repellat? 
+                Consectetur vero ipsam nobis ea, alias excepturi obcaecati 
+                neque illum similique quibusdam dolorem sequi esse. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nihil libero dolor itaque esse sit blanditiis deleniti 
+                quibusdam possimus! Impedit sit, quas obcaecati tempora
+                quam iste dolore rerum odio, eligendi, incidunt 
+                quibusdam suscipit optio nihil officia animi 
+                accusamus! Iusto, dolorem, saepe fuga quia architecto, 
+                ea enim voluptatibus nihil rerum voluptate aperiam 
+                odit fugit iure. Consequuntur eaque esse consequatur 
+                facere molestiae eos nihil incidunt fugit veniam. 
+                Perspiciatis, in quis aspernatur officia architecto
+                delectus dolore, excepturi enim labore unde laboriosam
+                nulla itaque deserunt. Architecto maxime velit soluta 
+                facere aliquam esse veniam id deserunt facilis ab non 
+                doloribus, quo nesciunt et. Repellat pariatur culpa quis
+                ipsa! Beatae corrupti architecto ad nostrum! Quaerat 
+                culpa iure adipisci officia quod, doloribus ex nisi in
+                expedita sapiente, voluptatem unde beatae illum? Enim 
+                eveniet nam, eligendi quasi excepturi omnis perferendis
+                pariatur dolores asperiores temporibus deleniti
+                consectetur incidunt rem reprehenderit. Ex beatae 
+                cumque aspernatur officiis voluptatem rerum ea ipsam 
+                velit, eius cum nulla dolores iusto, hic nesciunt 
+                repellat tempore suscipit. Beatae harum, ab similique 
+                vitae voluptatibus, adipisci quam maiores, cum provident
+                rerum quisquam molestias iure perspiciatis placeat doloribus unde officiis reprehenderit animi at accusantium cupiditate quaerat! Odit fugit adipisci corporis sed totam deleniti nostrum ducimus. Consequatur non ullam ut incidunt necessitatibus quia voluptates aliquam harum nihil. Facilis hic perferendis nostrum unde deleniti. Vitae velit iusto explicabo delectus maiores a odit laudantium illum nihil sit! Quibusdam excepturi, sint assumenda ex sunt, maiores debitis, necessitatibus adipisci deserunt ipsa possimus! Consequatur, ratione deserunt dolorem obcaecati commodi minus, officia hic asperiores ab quia cumque, possimus illum maiores dignissimos ipsam explicabo! Illo, cupiditate? Porro minus temporibus magnam quaerat omnis eius voluptate dolores voluptates corporis incidunt debitis perspiciatis voluptatem nulla expedita, enim molestias neque. Veniam blanditiis sequi quam voluptatum aperiam harum explicabo? Veritatis ipsum, fugiat laboriosam voluptates vitae omnis perspiciatis quam sit eum obcaecati iusto consequatur esse iure, blanditiis, sunt inventore nemo itaque! At ex suscipit accusantium esse voluptatem fugiat quae delectus, sit porro soluta. Nulla facilis voluptatibus officia sit a aperiam nesciunt, ipsa assumenda, rem, molestiae maiores rerum velit impedit? Debitis possimus, enim facere iusto, officia mollitia eveniet nobis explicabo quidem autem alias repellendus sint harum sapiente laborum et fuga quas aut ipsum quia. Modi incidunt iusto, explicabo quam reprehenderit hic cupiditate ullam voluptatem quis officia deleniti assumenda beatae ipsum tempora nihil ipsam, animi maiores magnam suscipit. A, illo. Eveniet nihil nisi corrupti placeat distinctio porro explicabo rem eligendi alias, animi illo minima fuga iste voluptatem cum culpa ratione ex atque nulla qui expedita ipsum, non aliquid error! Distinctio animi doloribus, error inventore facilis architecto nulla nihil laboriosam est, perspiciatis sint dignissimos aliquid dolores sit, velit cumque aut nobis optio quidem modi quae unde hic accusantium voluptates! Adipisci voluptate quia tempora, officiis ullam, veritatis nihil ab quisquam assumenda aperiam tenetur nulla totam eligendi dignissimos error non maiores ea? Laboriosam est ex asperiores odio ea architecto quidem perspiciatis cupiditate qui consequatur animi culpa delectus temporibus sequi nam quod optio et cumque illo nostrum, impedit mollitia ab. Fuga maiores, aut perspiciatis at a nostrum reprehenderit. Dignissimos, officia!
+            </main>
+            <aside>
+                AD
+            </aside>
+        </section>
+        <footer>
+            <a href="https://opentutorials.org/course/1">홈페이지</a>
+        </footer>
+    </div>
+</body>
